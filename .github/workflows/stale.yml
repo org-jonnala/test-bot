@@ -9,7 +9,7 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on:
 #    workflow_dispatch
   schedule:
-  - cron: '*/5  * * * *'
+  - cron: '*/1  * * * *'
   
 
 jobs:
